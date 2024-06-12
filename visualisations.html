@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Visualisations</title>
+  <link href="style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+  <div class="topnav">
+    <img class="logo" src="logo.png">
+
+    <a class="nav active" href="/index.html">Home</a>
+    <a class="nav" href="/about.html">About us</a>
+    <a class="nav" href="/visualisations.html">Visualisations</a>
+    <a class="nav" href="/next-steps.html">What you can do</a>
+  </div>
+</head>
+<body>
+<h1>Visualisations</h1>
+  <p>Here is a barchart that shows how tweets about climate change are more likely to harbor positive sentiments, as detected by LLM models in contrast to negative ones, whilst neutral scientific updates are even more likely </p>
+  <img class="graph" src="Screenshot 2024-06-10 at 9.57.19 PM.png">
+  <p>Here is the code we used to generate this visualisation</p>
+  <img class="code" src="Screenshot 2024-06-10 at 9.57.11 PM.png">
+  
+<p>Additionally, negativity about climate change on social media is still a pressing issue! Whilst <b>most tweets</b> about climate change are <b>optimistic or neutral</b>, there is a <b>growing concentration of negative terms</b> being used.  There are <b>more positive/neutral tweets overall</b>, however, when negative tweets are posted, they are <b>more likely to use the same terms</b> which means they are <b>more likely to trend/be seen</b> by others with the same POV creating a filter bubble
+</p>
+<img class="graph" src="Screenshot 2024-06-10 at 10.15.53 PM.png">
+
+  <div class="flex-container">
+    <div><img class="negative" src="negative.png"></div>
+    <div><img class="neutral" src="neutral.png"></div>
+    <div><img class="positive" src="positive.png"></div>
+  </div>
+  <p class="caption">Most common words by sentiment</p>
+
+<img class="graph" src="pie.png">
+<p>This can further be visualised with a pie chart, which shows that negative sentiment is <b>not overrepresented</b>in social media, but instead neutral and positive tweets culmilatively outnumber it</p>
+
+<img class="graph"  src="most common.png">
+<p> This is further exhibited by the fact the most common words used in climate tweets do not have clear negative connotations</p>
+  </body>
+
+<h2>Our Sources</h2>
+  <p>As we were unable to conduct primary analysis, we relied on the datasets found in <a href="https://www.kaggle.com/datasets/thedevastator/social-media-sentiment-and-climate-change/data">this Kaggle</a></p>
+  <p>We selected this specific dataset as it received a high usability rating with kaggle giving its "Source/Provenance" a 100% quality rating. Additionally, it contained  data on the sentiment of the posts, the favorite_count and retweet_count, as well as the date and coordinates of the posts which allowed for qualitative and quantitative data analysis
+</p>
+</html>
+

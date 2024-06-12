@@ -1,0 +1,156 @@
+html {
+  padding:15% 5%;
+  height: auto;
+  width: auto;
+  font-size:140%;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-image: radial-gradient( circle,#2af598, #22e4ac, #1bd7bb, #14c9cb, #0fbed8, #08b3e5);
+}
+blockquote{
+  font-size:300%;
+ color: white;
+  font-style:italic;
+}
+a{
+  color:white
+}
+a:hover{
+  color:#948363;
+}
+.topnav{
+  position:fixed;
+  top:0;
+  width:100%;
+  right:0.5px;
+  height:15%;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction: row;
+  background-color:green;
+}
+
+.nav{
+  color:white;
+  position:relative;
+  padding:2%;
+  height:10%;
+  left:10%;
+  justify-content:center;
+  font-size:150%
+}
+
+.nav:hover{
+  color:grey;
+}
+
+h1{
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+}
+
+.graph,.code{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:80%;
+  max-height:80%;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.negative,.neutral,.positive{
+  max-width:100%;
+  max-height:200%;
+  padding:5% 0;
+}
+
+.caption{
+  text-align: center;
+}
+
+.context{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+
+
+  
+}
+.cover,.context-text{
+width: 50%;
+  padding:2%;
+}
+
+.cover{
+  padding-left:0
+}
+
+.person{
+  display:flex;
+  flex-direction: row;
+  padding-top:5%;
+  padding-bottom:5%;
+
+}
+
+
+
+.imgs{
+   min-width:55%;
+  padding-right:5%;
+}
+.txt{
+  min-width:40%;
+  padding:50px;
+}
+
+.pic{
+  width:220px;
+  height:350px;
+  padding:100px
+}
+
+.info{
+  min-width:50%;
+}
+
+.space{
+  height:50%;
+}
+
+em{
+  color:white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.activism{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:90%;
+  max-height:100%;
+  
+}
+
+.infographic{
+  width:100%
+}
+
+.logo{
+  height:100%;
+}
